@@ -2,7 +2,7 @@ import React from 'react';
 import {PersonStandingIcon} from "lucide-react";
 import Link from "next/link";
 import {Avatar, AvatarFallback} from "@/components/ui/avatar";
-import LightDarkToggle from "@/components/LightDarkToggle";
+import LightDarkToggle from "@/components/light-dark-toggle";
 
 const Menu = () => {
     return (

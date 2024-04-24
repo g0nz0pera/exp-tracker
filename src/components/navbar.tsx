@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <div className="flex flew-row">
             <div className="basis-1/4">Logo</div>
@@ -10,4 +10,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;
