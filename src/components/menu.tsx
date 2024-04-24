@@ -3,6 +3,7 @@ import {PersonStandingIcon} from "lucide-react";
 import Link from "next/link";
 import {Avatar, AvatarFallback} from "@/components/ui/avatar";
 import LightDarkToggle from "@/components/light-dark-toggle";
+import MenuItem from "@/components/menu-item";
 
 const Menu = () => {
     return (
@@ -13,7 +14,8 @@ const Menu = () => {
                 </h4>
             </header>
             <ul className="py-4 grow">
-
+                <MenuItem href="/">Home</MenuItem>
+                <MenuItem href="/expenses">Expenses</MenuItem>
             </ul>
             <footer className="flex gap-2 items-center m-2">
                 <Avatar>

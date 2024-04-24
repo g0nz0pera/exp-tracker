@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <div className="grid grid-cols-[250px_1fr] h-screen overflow-auto py-2 px-4 rounded-2xl">
+        <div className="grid grid-cols-[250px_1fr] h-screen rounded-2xl">
           <Menu />
           {children}
         </div>
